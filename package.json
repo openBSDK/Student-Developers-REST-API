@@ -1,0 +1,24 @@
+{
+  "name": "student-developers-rest-api",
+  "version": "1.0.0",
+  "description": "REST API for Student Developers app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon ./src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openBSDK/Student-Developers-REST-API.git"
+  },
+  "author": "openBSDK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openBSDK/Student-Developers-REST-API/issues"
+  },
+  "homepage": "https://github.com/openBSDK/Student-Developers-REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
